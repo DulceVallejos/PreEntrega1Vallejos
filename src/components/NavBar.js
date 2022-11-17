@@ -1,28 +1,31 @@
-import { MdShoppingCart } from "react-icons/md";
+import React from 'react';
+import "../App.css"
+import CartWidget from './CartWidget';
+import { NavLink } from 'react-router-dom';
 
 const NavBar = () => {
     return (
      <header>
          <nav className="navbar navbar-expand-sm navbar-light bg-light">
              <div className="collapse navbar-collapse" id="opciones">
-                 <ul className="navbar-nav">
+                 <div className="navbar-nav">
                      <h1>M&S</h1>
-                     <li className="nav-item">
-                         <a className="nav-link" href="#">Inicio</a>
-                     </li>
-                     <li className="nav-item">
+                     <div className="nav-item">
+                         <NavLink className="nav-link" to="/">Inicio</NavLink> 
+                     </div>
+                     <div className="nav-item">
                          <a className="nav-link" href="#">Productos</a>
-                     </li>
-                     <li className="nav-item">
+                     </div>
+                     <div className="nav-item">
                          <a className="nav-link" href="#">Nosotros</a>
-                     </li>
-                     <li className="nav-item">
+                     </div>
+                     <div className="nav-item">
                          <a className="nav-link" href="#">Contacto</a>
-                     </li>
-                     <li className="carrito">
-                         <MdShoppingCart/>
-                     </li>
-                 </ul>
+                     </div>
+                     <div className="carrito">
+                         <CartWidget/>
+                     </div>
+                 </div>
               </div>
          </nav>
      </header>
