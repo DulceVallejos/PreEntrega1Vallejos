@@ -8,7 +8,6 @@ const { products } = require('../utils/products');
 const ItemDetailContainer = () => {
     const [dato, setDato] = useState({});
     const {id} =  useParams ()
-   
 
     useEffect(() => {
         customFetch(2000, products )

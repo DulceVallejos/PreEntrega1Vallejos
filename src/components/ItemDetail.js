@@ -10,21 +10,17 @@ const ItemDetail = ({ item }) => {
 
     return (
         <>
-        {
-            item && item.image
+        {   item && item.image
             ? 
-    <div>         
-                        <img src={item.image[0]}/>
-                        <h2>{item.name}</h2>
-                        <p>{item.description}</p>
-                        <p>$ {item.cost}</p>
-                        <p>{item.stock} unidades en stock</p>
-            
-                    <ItemCount stock={item.stock} initial={1} onAdd={onAdd} />
-        
-                    </div>
-            : <p>Cargando...</p>
-           
+            <div>         
+              <img className="img" src={item.image[0]}/>
+              <h2>{item.name}</h2>
+              <p>{item.description}</p>
+              <p className='costo'>$ {item.cost}</p>
+              <p>{item.stock} unidades en stock</p>
+              <ItemCount stock={item.stock} initial={1} onAdd={onAdd} />
+          </div>
+          : <p>Cargando...</p>   
         }
         </>
     );

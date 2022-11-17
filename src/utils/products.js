@@ -1,8 +1,8 @@
 const products = [
   {
     id: 30,
-    name: "Perfume 100 ml",
-    stock: 0,
+    name: "Miss Dior (Floral) - 100 ml",
+    stock: 15,
     cost: 3500,
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dolor libero, tincidunt id lacinia auctor, mattis elementum tortor. In eu bibendum magna, ac dignissim justo.",
     capacity: 1500,
@@ -27,8 +27,8 @@ const products = [
   },
   {
     id: 29,
-    name: "Perfume 50 ml",
-    stock: 100,
+    name: "Las Pepas (Floral) - 50 ml",
+    stock: 10,
     cost: 5000,
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dolor libero, tincidunt id lacinia auctor, mattis elementum tortor. In eu bibendum magna, ac dignissim justo.",
     capacity: 50,
@@ -58,8 +58,8 @@ const products = [
   },
   {
     id: 76,
-    name: "Perfume 50 ml",
-    stock: 92,
+    name: "Boss (Dulce) 50 ml",
+    stock: 32,
     cost: 4700,
     description: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dolor libero, tincidunt id lacinia auctor, mattis elementum tortor. In eu bibendum magna, ac dignissim justo",
     capacity: 50,
@@ -84,8 +84,8 @@ const products = [
   },
   {
     id: 170,
-    name: "Perfume 70ml",
-    stock: 100,
+    name: "Dolce Gabbana (Dulce) - 70ml",
+    stock: 24,
     cost: 5075,
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dolor libero, tincidunt id lacinia auctor, mattis elementum tortor. In eu bibendum magna, ac dignissim justo.",
     capacity: 70,
@@ -110,8 +110,8 @@ const products = [
   },
   {
     id: 233,
-    name: "Perfume 100 ml",
-    stock: 100,
+    name: "Calvin Klein (Fresco) 100 ml",
+    stock: 18,
     cost: 7650,
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dolor libero, tincidunt id lacinia auctor, mattis elementum tortor. In eu bibendum magna, ac dignissim justo.",
     capacity: 100,
@@ -125,7 +125,7 @@ const products = [
     brandId: 10,
     packingId: null,
     category: {
-      name: "Calvin Klein One ",
+      name: "Calvin Klein One",
       id: 1
     },
     brand: {
@@ -136,8 +136,8 @@ const products = [
   },
   {
     id: 139,
-    name: "Perfume 50 ml",
-    stock: 100,
+    name: "Chanel Chance (Fresco) 50 ml",
+    stock: 30,
     cost: 4900,
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dolor libero, tincidunt id lacinia auctor, mattis elementum tortor. In eu bibendum magna, ac dignissim justo.",
     capacity: 50,
@@ -162,8 +162,8 @@ const products = [
   },
   {
     id: 68,
-    name: "Perfume 70 ml",
-    stock: 89,
+    name: "Tommy Girl  (Citrico) - 70 ml",
+    stock: 42,
     cost: 5090,
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dolor libero, tincidunt id lacinia auctor, mattis elementum tortor. In eu bibendum magna, ac dignissim justo.",
     capacity: 70,
@@ -188,8 +188,8 @@ const products = [
   },
   {
     id: 222,
-    name: "Perfume 75 ml",
-    stock: 100,
+    name: "Escada (Citrico) - 75 ml",
+    stock: 10,
     cost: 3000,
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dolor libero, tincidunt id lacinia auctor, mattis elementum tortor. In eu bibendum magna, ac dignissim justo.",
     capacity: 75,
@@ -214,8 +214,8 @@ const products = [
   },
   {
     id: 135,
-    name: "Perfume 50 ml",
-    stock: 100,
+    name: "Touch Tous (Frutal) - 50 ml",
+    stock: 20,
     cost: 4900,
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dolor libero, tincidunt id lacinia auctor, mattis elementum tortor. In eu bibendum magna, ac dignissim justo.",
     capacity: 50,
@@ -240,8 +240,8 @@ const products = [
   },
   {
     id: 31,
-    name: "Perfume 80 ml",
-    stock: 100,
+    name: "BurBerry (Frutal) - 80 ml",
+    stock: 9,
     cost: 6500,
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dolor libero, tincidunt id lacinia auctor, mattis elementum tortor. In eu bibendum magna, ac dignissim justo.",
     capacity: 80,

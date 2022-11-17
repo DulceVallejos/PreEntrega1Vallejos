@@ -1,26 +1,24 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-/* import { Link } from 'react-router-dom'; */
 
 
-const Item = ({ id, title, stock, price, pictureUrl }) => {
+const Item = ({ id, stock, price, pictureUrl }) => {
     return (
-    <div>
-          
+     <div>
             <img className="imagen" src={pictureUrl} />
             <div>
                 <div>
                    <strong>$ {price}</strong>
                 </div>
                 <div>
-                   {stock} unid.
+                   {stock} unidades
                 </div>
                 <div style={{cursor: "pointer"}}>
-                     <Link to={`/item/${id}`}>Details</Link> 
+                     <Link to={`/item/${id}`}>Detalle</Link> 
                 </div>
             </div>
-        </div>
+      </div>
     );
 }
 

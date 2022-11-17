@@ -1,5 +1,4 @@
 import React from 'react';
-
 import { useEffect, useState } from 'react';
 
 
@@ -22,15 +21,16 @@ const ItemCount = ({ stock = 0, initial = 1,  onAdd }) => {
             setCount(count - 1);
         }
     }
+
     return (
-        <div>
+        <div className='carro'>
             <button  onClick={increment}>+</button>
             <p>{count}</p>
             <button onClick={decrement}>-</button>
             {
                 stock
-                ? <button  onClick={() => onAdd(count)}>Add to Cart</button>
-                : <button >Add to Cart</button>
+                ? <button className='boton' onClick={() => onAdd(count)}>Agregar al carrito</button>
+                : <button>Agregar al carrito</button>
             }
             
         </div>
