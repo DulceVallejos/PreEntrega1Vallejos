@@ -22,4 +22,4 @@ const Item = ({ id, stock, price, pictureUrl }) => {
     );
 }
 
-export default Item
+export default Item;

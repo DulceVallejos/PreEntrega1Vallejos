@@ -14,13 +14,19 @@ const NavBar = () => {
                          <NavLink className="nav-link" to="/">Inicio</NavLink> 
                      </div>
                      <div className="nav-item">
-                         <a className="nav-link" href="#">Productos</a>
+                     <NavLink className="nav-link" to="/category/Floral">Floral</NavLink>
                      </div>
                      <div className="nav-item">
-                         <a className="nav-link" href="#">Nosotros</a>
+                     <NavLink className="nav-link" to="/category/Frutal">Frutal</NavLink>
                      </div>
                      <div className="nav-item">
-                         <a className="nav-link" href="#">Contacto</a>
+                     <NavLink className="nav-link" to="/category/Fresco">Fresco</NavLink>
+                     </div>
+                     <div className="nav-item">
+                     <NavLink className="nav-link" to="/category/Dulce">Dulce</NavLink>
+                     </div>
+                     <div className="nav-item">
+                     <NavLink className="nav-link" to="/category/Citrico">Citrico</NavLink>
                      </div>
                      <div className="carrito">
                          <CartWidget/>

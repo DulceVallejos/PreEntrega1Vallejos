@@ -151,12 +151,12 @@ const products = [
     brandId: 16,
     packingId: null,
     category: {
-      name: "Chanel Chance",
+      name: "Fresco",
       id: 1
     },
     brand: {
       id: 16,
-      name: "Fresco"
+      name: "Chanel Chance"
     },
     reviews: []
   },
@@ -255,12 +255,12 @@ const products = [
     brandId: 17,
     packingId: null,
     category: {
-      name: "BurBerry",
+      name: "Frutal",
       id: 5
     },
     brand: {
       id: 17,
-      name: "Frutal"
+      name: ""
     },
     reviews: []
   }
