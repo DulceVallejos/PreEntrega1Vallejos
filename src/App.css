@@ -63,7 +63,14 @@ p{
 }
 
 .boton{
+  margin-bottom: 0.5%;
+  margin-top: 0%;
   margin-left: 5%;
+}
+
+.verCarrito{
+  margin-left: 3%;
+  margin-top: 0.5% ;
 }
 
 .cart
