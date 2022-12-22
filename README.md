@@ -25,7 +25,7 @@ Si lo que deseas es tener una copia en tu computadora local, debes bajarte el ar
 Dulce María Vallejos
 
 *Link al repositorio del proyecto: https://github.com/DulceVallejos/ProyectoFinalVallejos.git
-*Link al LocalHost:  https://dulcevallejos.github.io/ProyectoFinalVallejos/
+*Link presentacion: https://proyecto-final-vallejos.vercel.app/
 
 
 
