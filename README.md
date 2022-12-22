@@ -4,9 +4,10 @@
 
 El proyecto React JS trata acerca del desarrollo de un e-commerce que vende perfumes. 
 Los mismos están organizados en 5 secciones (dulces, frescos, florales, frutales, citricos).
+
 Las librerías utilizadas fueron:
-React Router Dom: Esta librería la utilizo para moverme mediante urls y pasar información a distintos componentes con el "UseParams".
-Firebase: Esta librería hace de backend para que la página tenga donde obtener la información de los productos.
+         React Router Dom: Esta librería la utilizo para moverme mediante urls y pasar información a distintos componentes con el "UseParams".
+         Firebase: Esta librería hace de backend para que la página tenga donde obtener la información de los productos.
 
 ## Breve introducción 🧾
 
@@ -22,7 +23,9 @@ Si lo que deseas es tener una copia en tu computadora local, debes bajarte el ar
 ## Autora ✒️
 
 Dulce María Vallejos
+
 Link al repositorio del proyecto: https://github.com/DulceVallejos/ProyectoFinalVallejos.git
+
 Link al LocalHost:  https://dulcevallejos.github.io/ProyectoFinalVallejos/
 
 
