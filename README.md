@@ -23,9 +23,9 @@ Si lo que deseas es tener una copia en tu computadora local, debes bajarte el ar
 ## Autora ✒️
 
 Dulce María Vallejos
-
-*Link al repositorio del proyecto: https://github.com/DulceVallejos/ProyectoFinalVallejos.git
 *Link presentacion: https://proyecto-final-vallejos.vercel.app/
+*Link al repositorio del proyecto: https://github.com/DulceVallejos/ProyectoFinalVallejos.git
+
 
 
 
